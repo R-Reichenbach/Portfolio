@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Reichenbach</title>
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="banner">
+        <header>
+            <a href="index.html" class="logo">Port<span>folio</span></a>
+        <div class="toggle"></div>
+        </header>
+           
+        <div class="content">
+            <div class="contentBx">
+                <h2>Meus Serviços</h2>
+                <p>⚪ Desenvolvimento Web: Destaque sua experiência em desenvolvimento web, incluindo tecnologias como PHP, Angular, TypeScript, MongoDB, HTML, Sass, CSS e Node.js. 
+                    Também possuo a capacidade de criar websites responsivos e otimizados para SEO.
+                </p>
+                <br>
+                <p>
+                    ⚪ Programação Back-End: Fale sobre sua proficiência em PHP, Python, Node.js, MySQL e MongoDB, 
+                    e posso desenvolver sistemas robustos e escaláveis para atender às necessidades dos clientes.
+                </p>
+                <br>
+                    <p>
+                        ⚪ Integração de APIs: Experiência em integração de APIs de terceiros para ampliar a funcionalidade e a eficiência de sistemas e aplicativos. 
+                        Especializado em conectar plataformas web e mobile, garantindo comunicação eficaz e implementação de funcionalidades avançadas.
+                    </p>
+                    <br>
+                    
+                    <p>
+                        ⚪ Manutenção e Suporte: Garanto a continuidade e o desempenho otimizado de sistemas por meio de suporte técnico dedicado e atualizações regulares. 
+                        Minha abordagem proativa visa identificar e resolver problemas rapidamente, minimizando interrupções e garantindo a satisfação do cliente.
+                    </p>
+                    <br>
+                    <p>
+                        ⚪ Consultoria Tecnológica: Ofereço orientação especializada para ajudar clientes a tomar decisões informadas sobre tecnologia, alinhando soluções com suas necessidades e objetivos. 
+                        Minha abordagem focada em resultados visa maximizar o desempenho e a eficiência dos sistemas.
+                    </p>
+                    
+                </p>
+                <a href="index.html">Voltar</a>
+            </div>
+              <img src="services.png" alt="services">
+        </div> 
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </section>
+    
+    <script>
+        let banner = document.querySelector('.banner');
+        let menutoggle = document.querySelector('.toggle');
+        menutoggle.onclick = function(){
+        menutoggle.classList.toggle('active');
+        banner.classList.toggle('active');
+       }
+    </script>
+</body>
+</html>

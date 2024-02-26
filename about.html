@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Reichenbach</title>
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="banner">
+        <header>
+            <a href="index.html" class="logo">Port<span>folio</span></a>
+        <div class="toggle"></div>
+        </header>
+           
+        <div class="content">
+            <div class="contentBx">
+                <h2>Sobre Mim</h2>
+                <p>Sou é um desenvolvedor full stack estudante de Engenharia de Software na Fateb, 
+                    com experiência em diversas linguagens e tecnologias.
+                    Especializado em Desenvolvimento Web, domina PHP, Angular, TypeScript, MongoDB,
+                    HTML, Sass, CSS e Node.js. Além disso, possuo habilidades sólidas em Programação Back-End.
+                    com proficiência em PHP, Python, Node.js, MySQL e MongoDB, e familiaridade com Express. 
+                    Também sou experiente em Docker Compose, REST APIs, Angular, TypeScript, MySQL, 
+                    Express, WordPress, manutenção de hardware e redes de computadores.
+                </p>
+                <a href="index.html">Voltar</a>
+            </div>
+              <img src="logo.png" alt="logo">
+        </div> 
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </section>
+    
+    <script>
+        let banner = document.querySelector('.banner');
+        let menutoggle = document.querySelector('.toggle');
+        menutoggle.onclick = function(){
+        menutoggle.classList.toggle('active');
+        banner.classList.toggle('active');
+       }
+    </script>
+</body>
+</html>

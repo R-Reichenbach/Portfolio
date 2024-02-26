@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Reichenbach</title>
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="banner">
+        <header>
+            <a href="index.html" class="logo">Port<span>folio</span></a>
+        <div class="toggle"></div>
+        </header>
+           
+        <div class="content">
+            <div class="contentBx">
+                <h4>Hello</h4>
+                <h2>I'm <span>Rafael Reichenbach</span></h2>
+                <h3>Software Developer</h3>
+                <p>Desenvolvedor full stack cursando Engenharia de Software pela Fateb, com experiência em PHP, Angular,
+                TypeScript, MongoDB, HTML, Sass, CSS, Node.js, MySQL, Docker Compose e etc. Comprometido em enfrentar desafios 
+                complexos e aprimorar continuamente minhas habilidades para contribuir com excelência para novos projetos.
+                </p>
+                <a href="contact.html">Fale Comigo</a>
+                <a href="https://drive.google.com/drive/folders/1g2SaBjyTziwjfg6OyrwnadrAhjemXGbW?usp=sharing">Download Currículo</a>
+            </div>
+              <img src="profile2.png" alt="profile">
+        </div> 
+        <ul class="sci">
+            <li> <a href="#"> <img src="facebook.png" ></a></li>
+            <li> <a href="#"> <img src="twitter.png" ></a></li>
+            <li> <a href="#"> <img src="instagram.png" ></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </section>
+    
+    <script>
+        let banner = document.querySelector('.banner');
+        let menutoggle = document.querySelector('.toggle');
+        menutoggle.onclick = function(){
+        menutoggle.classList.toggle('active');
+        banner.classList.toggle('active');
+       }
+    </script>
+</body>
+</html>
